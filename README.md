@@ -1,5 +1,5 @@
 # Penguin_classifiers
-Applying ML on the output of nanopolish eventalign for Pseudouridine detection 
+Applying machine learning on the output of nanopolish eventalign for pseudouridine detection on Nanopore RNA sequence. 
 
 
 # About  Penguin_classifiers
