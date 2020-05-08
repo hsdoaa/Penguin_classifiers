@@ -1,9 +1,9 @@
 # Penguin_classifiers
-Applying ML on the output of nanopolish eventalign of hek293  cell line for Pseudouridine detection 
+Applying ML on the output of nanopolish eventalign for Pseudouridine detection 
 
 
 # About  Penguin_classifiers
-Penguin_classifiers are a set of predictors to identify Pseudouridine sites presented in direct Nanopore RNA sequencing reads. Those predictors are integrated in the pipeline of Penguin (https://github.com/daniel235/Penguin), a tool developed for identifying Pseudouridine sites presented in Nanopore RNA sequence.
+Penguin_classifiers are a set of predictors to identify pseudouridine sites presented in direct Nanopore RNA sequencing reads. Those predictors are integrated in the pipeline of Penguin (https://github.com/daniel235/Penguin), a tool developed for identifying Pseudouridine sites presented in Nanopore RNA sequence.
 Penguin_classifiers will extract a set of features from the output of nanopolish eventalign module that is used for extracting raw signals (events) from Oxford Nanopore RNA Sequence, and use those features to predict whether the signal is modified by the presence of pseudouridine sites or not. 
 Features extracted include:
 - onehot encoding of reference_kmer
