@@ -15,7 +15,7 @@ Penguin_classifiers can be adopted to detect other RNA modifications which has n
 
 # Considerations when using this predictor:
 Current trained machine learning models of Penguin_classifiers are Support Vector Machine (SVM), Neural Network (NN), and Random Forest (RF). 
-Those models has been trained and tested on cell lines 's data that has been base-called with Albacore 2.1.0.
+Those models have been trained and tested on cell lines 's data that has been base-called with Albacore 2.1.0.
 Training new models for cell lines's data that has been base-called using other basecallers has not been yet tested. 
 
 # What's included?
