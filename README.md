@@ -19,7 +19,7 @@ Those models have been trained and tested on cell lines 's data that has been ba
 Training new models for cell lines's data that has been base-called using other basecallers has not been yet tested. 
 
 # What's included?
-- SVM.py, NN.py, and RF.py  are python scripts for SVM, NN, and RF predictors respectively. Each script extracts three features from the output of eventalign module (event_mean, event_stdv, aand event_length) and use those features to train the classifier and test it to predict RNA Pseudouridine modifications.
+- SVM.py, NN.py, and RF.py  are python scripts for SVM, NN, and RF predictors respectively. Each script extracts three features from the output of eventalign module (event_mean, event_stdv, and event_length) and use those features to train the classifier and test it to predict RNA Pseudouridine modifications.
 - SVM_onehot.py, NN_onehot.py, and RF_onehot.py  are python scripts for SVM, NN, and RF predictors respectively. Each script use the afromentioned three features in addition to onehot encoding of reference_kmer in output of nanopolish eventalign module to train the classifier and test it to predict RNA Pseudouridine modifications.
 - plot_learning_curves.py is a python script for plotting the learning curve for each predictor.
 
